@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate-nextjs",
+  "version": "1.0.0",
+  "description": "boilerplate-nextjs",
+  "main": "index.js",
+  "author": "Ricardo Montuan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
