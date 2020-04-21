@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react"
 
 type ExampleProps = {
-  children: string
+  children: React.ReactElement
 }
 
 const Example: FunctionComponent<ExampleProps> = ({ children }) => {

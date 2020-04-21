@@ -7,7 +7,11 @@ import ExampleComponent from "./Example"
 
 test("shows the children when the checkbox is checked", () => {
   const testMessage = "Test Message"
-  render(<ExampleComponent>{testMessage}</ExampleComponent>)
+  render(
+    <ExampleComponent>
+      <div>{testMessage}</div>
+    </ExampleComponent>
+  )
 
   expect(screen.queryByText(testMessage)).toBeNull()
 
