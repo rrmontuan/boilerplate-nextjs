@@ -1,4 +1,4 @@
-import sum from "./sum"
+import sum from "~lib/example/sum"
 
 describe("sum - example lib", () => {
   it("sum 2 numbers and expects correct result", () => {

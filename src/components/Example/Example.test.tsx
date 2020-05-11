@@ -3,7 +3,7 @@ import "@testing-library/jest-dom"
 
 import React from "react"
 import { render, fireEvent, screen } from "@testing-library/react"
-import ExampleComponent from "./Example"
+import ExampleComponent from "~components/Example/Example"
 
 test("shows the children when the checkbox is checked", () => {
   const testMessage = "Test Message"
