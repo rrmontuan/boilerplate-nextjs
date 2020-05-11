@@ -12,7 +12,7 @@ const Example: FunctionComponent<ExampleProps> = ({ children }) => {
       <input
         id="toggle"
         type="checkbox"
-        onChange={(e) => setShowMessage(e.target.checked)}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>): void => setShowMessage(e.target.checked)}
         checked={showMessage}
       />
       {showMessage ? children : null}
